@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,25 +21,33 @@ scroll-behavior:smooth;
 
 <!-- NAVBAR -->
 
-<nav class="flex justify-between items-center p-6 bg-gray-800 fixed w-full top-0">
+<nav class="flex justify-between items-center p-6 bg-gray-800 fixed w-full top-0 z-50">
 
 <h1 class="text-2xl font-bold text-cyan-400">Abhishek Singh</h1>
 
 <div class="space-x-6">
 <a href="#home" class="hover:text-cyan-400">Home</a>
 <a href="#about" class="hover:text-cyan-400">About</a>
+<a href="#education" class="hover:text-cyan-400">Education</a>
 <a href="#skills" class="hover:text-cyan-400">Skills</a>
 <a href="#projects" class="hover:text-cyan-400">Projects</a>
 <a href="#contact" class="hover:text-cyan-400">Contact</a>
+
+<a href="https://www.linkedin.com/in/abhishek-singh-76766237a/"
+target="_blank"
+class="text-cyan-400 font-semibold">
+LinkedIn
+</a>
 </div>
 
 </nav>
+
 
 <!-- HERO -->
 
 <section id="home" class="h-screen flex flex-col md:flex-row justify-center items-center gap-10 text-center md:text-left">
 
-<img src="myphoto.jpg"
+<img src="asstes/myphoto.jpg.jpeg"
 class="w-48 h-48 rounded-full border-4 border-cyan-400 shadow-lg">
 
 <div>
@@ -52,14 +60,25 @@ Hi, I'm <span class="text-cyan-400">Abhishek</span>
 Frontend Developer
 </p>
 
+<div class="space-x-4">
+
 <a href="#projects"
 class="bg-cyan-400 text-black px-6 py-3 rounded-lg">
 View Projects
 </a>
 
+<a href="https://www.linkedin.com/in/abhishek-singh-76766237a/"
+target="_blank"
+class="border border-cyan-400 px-6 py-3 rounded-lg hover:bg-cyan-400 hover:text-black">
+LinkedIn
+</a>
+
+</div>
+
 </div>
 
 </section>
+
 
 <!-- ABOUT -->
 
@@ -71,11 +90,43 @@ View Projects
 
 I am a frontend developer who builds modern websites using
 HTML, CSS and JavaScript. I enjoy creating clean and
-responsive user interfaces.
+responsive user interfaces. I also work with Python and
+love building interactive web applications.
 
 </p>
 
 </section>
+
+
+<!-- EDUCATION -->
+
+<section id="education" class="p-16 text-center">
+
+<h2 class="text-3xl font-bold mb-6 text-cyan-400">Education</h2>
+
+<div class="max-w-3xl mx-auto bg-gray-800 p-8 rounded-lg">
+
+<h3 class="text-xl font-semibold">
+B.S. in Applied Artificial Intelligence & Data Science
+</h3>
+
+<p class="text-gray-400 mt-2">
+Indian Institute of Technology Jodhpur
+</p>
+
+<p class="text-gray-500 mt-1">
+Undergraduate Student
+</p>
+
+<p class="text-gray-400 mt-4">
+Currently studying Artificial Intelligence, Data Science,
+Machine Learning and modern computing technologies.
+</p>
+
+</div>
+
+</section>
+
 
 <!-- SKILLS -->
 
@@ -117,6 +168,7 @@ responsive user interfaces.
 
 </section>
 
+
 <!-- PROJECTS -->
 
 <section id="projects" class="p-16 text-center">
@@ -125,30 +177,42 @@ responsive user interfaces.
 
 <div class="grid md:grid-cols-3 gap-8">
 
-<div class="bg-gray-800 p-6 rounded-lg">
+<div class="bg-gray-800 p-6 rounded-lg hover:scale-105 transition">
+
 <h3 class="text-xl font-bold mb-3">Todo App</h3>
+
 <p class="text-gray-400">
 CRUD Todo list using JavaScript.
 </p>
+
 </div>
 
-<div class="bg-gray-800 p-6 rounded-lg">
+
+<div class="bg-gray-800 p-6 rounded-lg hover:scale-105 transition">
+
 <h3 class="text-xl font-bold mb-3">Cake Store Website</h3>
+
 <p class="text-gray-400">
 Online cake ordering website.
 </p>
+
 </div>
 
-<div class="bg-gray-800 p-6 rounded-lg">
-<h3 class="text-xl font-bold mb-3">Student Management System</h3>
+
+<div class="bg-gray-800 p-6 rounded-lg hover:scale-105 transition">
+
+<h3 class="text-xl font-bold mb-3">Blood Bank System</h3>
+
 <p class="text-gray-400">
-Manage student records using CRUD.
+Web application to manage blood donors and requests.
 </p>
+
 </div>
 
 </div>
 
 </section>
+
 
 <!-- CONTACT -->
 
@@ -156,8 +220,20 @@ Manage student records using CRUD.
 
 <h2 class="text-3xl font-bold mb-6 text-cyan-400">Contact Me</h2>
 
-<p class="text-gray-400 mb-6">
+<p class="text-gray-400 mb-2">
 Email: yourmail@gmail.com
+</p>
+
+<p class="text-gray-400 mb-6">
+
+LinkedIn:
+
+<a href="https://www.linkedin.com/in/abhishek-singh-76766237a/"
+target="_blank"
+class="text-cyan-400">
+abhishek-singh-76766237a
+</a>
+
 </p>
 
 <button class="bg-cyan-400 text-black px-6 py-3 rounded-lg">
@@ -166,12 +242,16 @@ Hire Me
 
 </section>
 
+
 <footer class="text-center p-6 text-gray-500">
+
 © 2026 Abhishek Portfolio
+
 </footer>
 
 </body>
 </html>
+```
 
 
 
